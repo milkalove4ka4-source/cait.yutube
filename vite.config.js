@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev
 export default defineConfig({
   plugins: [react()],
-  base: '/vibestream/', // Необходимо для корректной работы путей на GitHub Pages
+  base: '/cait.yutube/', // Исправлено под имя вашего репозитория
 })
